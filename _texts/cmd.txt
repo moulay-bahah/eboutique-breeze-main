@@ -1,0 +1,10 @@
+php artisan breeze:install react --ssr  --typescript
+php artisan migrate
+npm install
+
+
+//
+
+php artisan migrate
+php artisan serve
+npm run dev
